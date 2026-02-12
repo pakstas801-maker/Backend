@@ -11,8 +11,8 @@ using WebApplication8.Data;
 namespace WebApplication8.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260206120100_AddPasswordHash")]
-    partial class AddPasswordHash
+    [Migration("20260210184746_InitialCreate2")]
+    partial class InitialCreate2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -12,4 +12,4 @@ namespace WebApplication8.Dto
         [MinLength(6)]
         public string Password { get; set; }
     }
-}
+} 

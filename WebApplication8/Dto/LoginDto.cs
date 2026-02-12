@@ -2,7 +2,7 @@
 
 namespace WebApplication8.Dto
 {
-    public class LoginDto
+    public class LoginRequest
     {
         [Required]
         public string Name { get; set; }

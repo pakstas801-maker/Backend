@@ -4,7 +4,7 @@ using WebApplication8.Data;
 
 public class AppDbContextFactory
     : IDesignTimeDbContextFactory<AppDbContext>
-{
+{   
     public AppDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
@@ -16,3 +16,4 @@ public class AppDbContextFactory
         return new AppDbContext(optionsBuilder.Options);
     }
 }
+    
